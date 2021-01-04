@@ -1,0 +1,98 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*Header*/
+.hébergements {
+    border-top: 2px solid #0065fc;
+    color:#0065fc;
+}
+.activités{
+    color: black;
+}
+.inscrire{
+    font-weight: bold;
+    color:#0065fc;
+}
+/*Base*/
+body {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: left;
+    background-color: white;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+header{
+    flex: 0 0 auto;
+    display: block;
+}
+
+/*Navbar top*/
+nav {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem 0;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.nav-content{
+    align-items: center;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width:1140px;
+}
+nav .logo {
+    flex: 0 0 auto;
+    max-width: 75%;
+    display: inline-block;
+}
+nav .logo img{
+    width: auto;
+    object-fit: contain;
+    display: block;
+    height: 45px;
+}
+.menu-right {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu-right ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+    margin-left: auto !important;
+    text-align: right !important;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.menu-right ul li {
+    list-style: none;
+    display: list-item;
+    line-height: 61px;
+}
+.menu-right ul li a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.menu-right ul li a{
+    display: block;
+}
