@@ -54,7 +54,6 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width:1140px;
 }
 nav .logo {
     flex: 0 0 auto;
