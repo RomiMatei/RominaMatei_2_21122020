@@ -249,3 +249,82 @@ nav .logo img{
     align-items: center;
     padding-top: 7px;
 }
+.filter-button {
+    color: #484848;
+    display: inline-block;
+    height: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+    /*background: #eaeef1;*/
+    text-decoration: none;
+    margin: 7px;
+    border: 3px solid #f2f2f2;
+    border-radius: 25px;
+}
+strong{
+    font-size: 19px;
+}
+
+.filter-button .iconback{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 25px;
+}
+.filter-button .iconback .fas{
+    transition: .3s;
+}
+
+.filter-button .btn-round{
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+}
+.btn-round{
+    font-weight: bold;
+}
+.filter-button:hover .iconback .fas{
+    transform: rotateX(360deg);
+}
+
+.info-button
+{
+    color: #484848;
+    display: inline-block;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+.info-button .iconback{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 1px;
+    color: #0065FC;
+    background-color: #ffffff;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+}
+.info-button .iconback .fas{
+    transition: .3s;
+}
+.info-button .btn-round{
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+
+.info-button:hover .iconback .fas{
+    transform: rotateX(360deg);
+}
