@@ -328,3 +328,89 @@ strong{
 .info-button:hover .iconback .fas{
     transform: rotateX(360deg);
 }
+section{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.active{
+    margin-bottom: 0;
+    position: absolute;
+    left: 197px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+#container{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 980px;
+    height: 650px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.card_1,.card_2{
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    height: 100px;
+    width: 33.33%;
+}
+
+figure{
+    margin: 7px;
+    background-color: white;
+    border-radius: 25px;
+    height: 225px;
+    margin-bottom: 10px;
+}
+.card_1 img, .card_2 img{
+    border-radius: 25px 25px 0 0;
+    width: 290px;
+    height: 130px;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+img{
+    border-radius: 25px 0 0 25px;
+    width: 145px;
+    height: 150px;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+figcaption{
+    height: 79px;
+    padding-left: 10px;
+    margin: 7px;
+    background-color: white;
+    border-radius: 25px;
+}
+p{
+    margin: 0;
+}
+.stars{
+    color: #0065FC;
+}
+.grey{
+    color: #f2f2f2;
+}
+.plus{
+    margin-bottom: 0;
+    position: relative;
+    left: -404px;
+    top: 75px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
