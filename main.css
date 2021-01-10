@@ -469,3 +469,147 @@ p{
     background-color: white;
     border-radius: 25px;
 }
+#activités {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 1580px;
+}
+
+.Marseille {
+    margin-bottom: 0;
+    position: absolute;
+    left: 170px;
+    top: 1212px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card_4 {
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 450px;
+    width: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_4 figure {
+    margin: -10px;
+    background-color: white;
+    border-radius: 25px;
+    height: 390px;
+    margin-bottom: 10px;
+}
+
+.card_4 img {
+    border-radius: 25px 25px 0 0;
+    width: 330px;
+    height: 390px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card_4 figcaption {
+    height: 42px;
+    padding-left: 10px;
+    margin: 7px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.photo_2 {
+    border-radius: 25px;
+    margin-top: 50px;
+    height: 250px;
+    text-align: center;
+}
+
+.card_Fort {
+    border-radius: 25px;
+    height: 226px;
+    margin-left: -21px;
+    margin-bottom: 72px;
+    width: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_Fort figure {
+    margin-top: 0;
+    margin-left: -15px;
+    background-color: white;
+    border-radius: 25px;
+    height: 225px;
+    width: 345px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_Fort img {
+    border-radius: 25px 25px 0 0;
+    width: 348px;
+    height: 182px;
+    padding-top: 0;
+    margin-left: -3px;
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+.card_Fort figcaption {
+    height: 30px;
+    width: 185px;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.card_îles {
+    border-radius: 25px;
+    height: 155px;
+    margin-top: 34px;
+    margin-left: -24px;
+    width: 332px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_îles figure {
+    margin-top: 0;
+    margin-left: -13px;
+    background-color: white;
+    border-radius: 25px;
+    height: 155px;
+    width: 345px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.card_îles img {
+    border-radius: 25px 25px 0 0;
+    width: 345px;
+    height: 109px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card_îles figcaption {
+    height: 30px;
+    width: 185px;
+    margin-top: 4px;
+    margin-left: 2px;
+    padding-left: 0;
+    background-color: white;
+    border-radius: 25px;
+}
