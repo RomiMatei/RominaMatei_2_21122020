@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-    width: 1500px;
+    width: 1620px;
     margin: auto;
     padding: 15px;
 }
@@ -475,16 +475,15 @@ p{
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
-    width: 1580px;
+    width: 1600px;
 }
 
 .Marseille {
     margin-bottom: 0;
     position: absolute;
-    left: 170px;
+    left: 108px;
     top: 1212px;
     padding-left: 30px;
     padding-top: 10px;
@@ -499,7 +498,7 @@ p{
     margin-top: 50px;
     margin-bottom: 25px;
     height: 450px;
-    width: 330px;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
@@ -514,7 +513,7 @@ p{
 
 .card_4 img {
     border-radius: 25px 25px 0 0;
-    width: 330px;
+    width: 300px;
     height: 390px;
     padding-top: 0;
     padding-left: 0;
@@ -532,37 +531,35 @@ p{
 .photo_2 {
     border-radius: 25px;
     margin-top: 50px;
-    height: 250px;
+    margin-right: -20px;
+    height: 457px;
+    width: 320px;
     text-align: center;
 }
 
 .card_Fort {
     border-radius: 25px;
     height: 226px;
-    margin-left: -21px;
     margin-bottom: 72px;
-    width: 330px;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
 .card_Fort figure {
     margin-top: 0;
-    margin-left: -15px;
     background-color: white;
     border-radius: 25px;
-    height: 225px;
-    width: 345px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    height: 227px;
+    width: 300px;
 }
 
 .card_Fort img {
     border-radius: 25px 25px 0 0;
-    width: 348px;
+    width: 310px;
     height: 182px;
     padding-top: 0;
-    margin-left: -3px;
+    margin-left: -10px;
     padding-left: 3px;
     padding-right: 0;
 }
@@ -579,26 +576,23 @@ p{
     border-radius: 25px;
     height: 155px;
     margin-top: 34px;
-    margin-left: -24px;
-    width: 332px;
+    width: 310px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
 .card_îles figure {
     margin-top: 0;
-    margin-left: -13px;
     background-color: white;
     border-radius: 25px;
     height: 155px;
-    width: 345px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    width: 300px;
 }
 .card_îles img {
     border-radius: 25px 25px 0 0;
-    width: 345px;
+    width: 310px;
     height: 109px;
+    margin-left: -7px;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -613,3 +607,85 @@ p{
     background-color: white;
     border-radius: 25px;
 }
+
+.photo_4 {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: -20px;
+    height: 457px;
+    width: 320px;
+    text-align: center;
+}
+
+.card_Garde {
+    border-radius: 25px;
+    height: 200px;
+    margin-bottom: 44px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_Garde figure {
+    margin-top: 0;
+    background-color: white;
+    border-radius: 25px;
+    height: 200px;
+    width: 300px;
+}
+
+.card_Garde img {
+    border-radius: 25px 25px 0 0;
+    width: 310px;
+    height: 150px;
+    padding-top: 0;
+    margin-left: -11px;
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+.card_Garde figcaption {
+    height: 31px;
+    width: 253px;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.card_Longchamp {
+    border-radius: 25px;
+    height: 210px;
+    margin-top: 34px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card_Longchamp figure {
+    margin-top: 0;
+    background-color: white;
+    border-radius: 25px;
+    height: 155px;
+    width: 293px;
+}
+
+.card_Longchamp img {
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    margin-left: -8px;
+    height: 150px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card_Longchamp figcaption {
+    height: 30px;
+    width: 185px;
+    margin-top: 4px;
+    margin-left: 2px;
+    padding-left: 0;
+    background-color: white;
+    border-radius: 25px;
+}
+
