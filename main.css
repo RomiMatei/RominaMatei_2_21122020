@@ -59,12 +59,13 @@ nav .logo {
     flex: 0 0 auto;
     max-width: 75%;
     display: inline-block;
+    margin-left: -8px;
 }
 nav .logo img{
     width: auto;
     object-fit: contain;
     display: block;
-    height: 45px;
+    height: 60px;
 }
 .menu-right {
     display: flex;
@@ -252,24 +253,28 @@ nav .logo img{
 .filter-button {
     color: #484848;
     display: inline-block;
-    height: 45px;
+    height: 53px;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 50px;
     vertical-align: middle;
-    /*background: #eaeef1;*/
     text-decoration: none;
-    margin: 7px;
+    margin-right: 25px;
     border: 3px solid #f2f2f2;
     border-radius: 25px;
 }
-strong{
+
+
+strong {
     font-size: 19px;
+    padding-right: 15px;
 }
 
-.filter-button .iconback{
+.filter-button .iconback {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+    margin-left: -3px;
     text-align: center;
     color: #0065FC;
     background-color: #deebff;
@@ -281,7 +286,7 @@ strong{
 
 .filter-button .btn-round{
     display: inline-block;
-    width: 180px;
+    padding: 0 20px 0 20px;
     text-align: center;
 }
 .btn-round{
@@ -333,10 +338,10 @@ section{
     margin-bottom: 30px;
     margin-top: 10px;
 }
-.active{
+.active {
     margin-bottom: 0;
     position: absolute;
-    left: 197px;
+    left: 145px;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -414,20 +419,12 @@ p{
     font-weight: bold;
     font-size: 1.2rem;
 }
-.card_3 figure{
-    margin: 7px;
-    background-color: white;
-    display: flex;
-    border-radius: 25px;
-    height: 155px;
-    margin-bottom: 10px;
-}
+
 #aside{
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: absolute;
     top: 417px;
     right: 76px;
     width: 520px;
@@ -461,18 +458,26 @@ p{
     height: 144px;
 
 }
+.card_3 figure{
+    margin: 7px;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    height: 155px;
+    margin-bottom: 10px;
+}
 .card_3 figcaption {
     height: 130px;
-    width: 180px;
+    width: 200px;
     padding-left: 10px;
-    margin: 2px;
+    margin-top: 9px;
     background-color: white;
     border-radius: 25px;
 }
 
 .card_3 p {
     /*espace entre les étoiles et la description*/
-    margin-bottom: 42px;
+    margin-bottom: 35px;
 }
 
 #activités {
@@ -749,6 +754,7 @@ ul {
     margin-inline-start: 0;
     margin-inline-end: 0;
     margin-left: -40px;
+    font-size: 1.2em;
 }
 
 li {
