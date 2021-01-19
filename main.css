@@ -5,19 +5,23 @@
 /*Header*/
 .hébergements {
     border-top: 2px solid #0065fc;
-    color:#0065fc;
+    color: #0065fc;
 }
-.activités{
+
+.activités {
     color: black;
     border-top: 2px solid transparent;
 }
-.inscrire{
+
+.inscrire {
     font-weight: bold;
-    color:#0065fc;
+    color: #0065fc;
     border-top: 2px solid transparent;
 }
+
 /*Base*/
 body {
+    display: block;
     margin: 0;
     font-family: Raleway, sans-serif;
     font-size: 0.875rem;
@@ -32,7 +36,7 @@ body {
     padding: 15px;
 }
 
-header{
+header {
     flex: 0 0 auto;
     display: block;
 }
@@ -48,31 +52,36 @@ nav {
     line-height: 24px;
     margin-bottom: 0;
 }
-.nav-content{
+
+.nav-content {
     align-items: center;
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 nav .logo {
     flex: 0 0 auto;
     max-width: 75%;
     display: inline-block;
     margin-left: -8px;
 }
-nav .logo img{
-    width: auto;
+
+nav .logo img {
     object-fit: contain;
     display: block;
-    height: 60px;
+    margin-left: 2px;
+    height: 65px;
 }
+
 .menu-right {
     display: flex;
     flex-basis: auto;
     align-items: center;
     flex-grow: 1;
 }
+
 .menu-right ul {
     display: flex;
     flex-direction: row;
@@ -90,24 +99,31 @@ nav .logo img{
     display: list-item;
     line-height: 61px;
 }
-.menu-right ul li a{
+
+.menu-right ul li a {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.menu-right ul li a{
+.menu-right ul li a {
     display: block;
+}
+
+#head-title {
+    margin-bottom: 30px;
 }
 
 #head-title h1 {
     margin-bottom: 0;
     padding-top: 10px;
-
 }
+
 #head-title h2 {
-    margin-top: 0;
+    margin-top: 15px;
+    margin-left: 0;
     padding-bottom: 10px;
     font-weight: normal;
+    font-size: 21px;
 }
 
 /*Search box*/
@@ -186,11 +202,12 @@ nav .logo img{
     height: 36px;
     fill: #222;
 }
+
 .search-box form .inner-form .input-field.first-wrap.icon-group {
     max-width: 50px;
 }
 
-.search-box form .inner-form .input-field.first-wrap.icon-group .icon-wrapper{
+.search-box form .inner-form .input-field.first-wrap.icon-group .icon-wrapper {
     height: 100%;
     width: 100%;
     white-space: nowrap;
@@ -203,11 +220,13 @@ nav .logo img{
     transition: all .2s ease-out, color .2s ease-out;
     text-align: center;
 }
+
 .search-box form .inner-form .input-field.first-wrap.icon-group .icon-wrapper img {
     width: 24px;
     height: 24px;
-    margin-top:5px;
+    margin-top: 5px;
 }
+
 .search-box form .inner-form .input-field.second-wrap {
     min-width: 135px;
 }
@@ -241,15 +260,18 @@ nav .logo img{
     color: #ccc;
     padding-left: 26px;
 }
-#search{
+
+#search {
     font-weight: bold;
 }
-.fa-map-marker-alt{
+
+.fa-map-marker-alt {
     font-weight: 900;
     color: black;
     align-items: center;
     padding-top: 7px;
 }
+
 .filter-button {
     color: #484848;
     display: inline-block;
@@ -259,7 +281,7 @@ nav .logo img{
     vertical-align: middle;
     text-decoration: none;
     margin-right: 25px;
-    border: 3px solid #f2f2f2;
+    border: 2px solid #d9d9d9;
     border-radius: 25px;
 }
 
@@ -280,24 +302,26 @@ strong {
     background-color: #deebff;
     border-radius: 25px;
 }
-.filter-button .iconback .fas{
+
+.filter-button .iconback .fas {
     transition: .3s;
 }
 
-.filter-button .btn-round{
+.filter-button .btn-round {
     display: inline-block;
     padding: 0 20px 0 20px;
     text-align: center;
 }
-.btn-round{
+
+.btn-round {
     font-weight: bold;
 }
-.filter-button:hover .iconback .fas{
+
+.filter-button:hover .iconback .fas {
     transform: rotateX(360deg);
 }
 
-.info-button
-{
+.info-button {
     color: #484848;
     display: inline-block;
     height: 30px;
@@ -310,7 +334,12 @@ strong {
     padding-bottom: 15px;
     border-radius: 25px;
 }
-.info-button .iconback{
+
+.info {
+    margin-top: 25px;
+}
+
+.info-button .iconback {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -321,106 +350,65 @@ strong {
     border: 1px solid #f2f2f2;
     border-radius: 25px;
 }
-.info-button .iconback .fas{
+
+.info-button .iconback .fas {
     transition: .3s;
 }
-.info-button .btn-round{
+
+.info-button .btn-round {
     display: inline-block;
     width: 15px;
     text-align: center;
 }
 
-.info-button:hover .iconback .fas{
+.info-button:hover .iconback .fas {
     transform: rotateX(360deg);
 }
-section{
+
+section {
     display: flex;
-    margin-bottom: 30px;
     margin-top: 10px;
 }
-.active {
-    margin-bottom: 0;
-    position: absolute;
-    left: 145px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-#container{
+
+#container {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 980px;
-    height: 650px;
+    width: 1020px;
+    height: 730px;
     margin-top: 50px;
-    margin-right: 50px;
+    margin-right: 25px;
     margin-bottom: 50px;
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
     border-radius: 20px 20px 20px 20px;
 }
-.card_1,.card_2{
-    border-radius: 25px;
-    padding: 10px;
-    margin-top: 50px;
-    height: 100px;
-    width: 33.33%;
+
+#container h2 {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1.8em;
+    width: 100%;
 }
 
-figure{
-    margin: 7px;
-    background-color: white;
-    border-radius: 25px;
-    height: 225px;
-    margin-bottom: 10px;
-}
-.card_1 img, .card_2 img{
-    border-radius: 25px 25px 0 0;
-    width: 290px;
-    height: 130px;
-    padding-left: 7px;
-    padding-right: 10px;
-    padding-top: 6px;
-}
-img{
-    border-radius: 25px 0 0 25px;
-    width: 145px;
-    height: 150px;
-    padding-left: 7px;
-    padding-right: 10px;
-    padding-top: 6px;
-}
-figcaption{
-    height: 79px;
-    padding-left: 10px;
-    margin: 7px;
-    background-color: white;
-    border-radius: 25px;
-}
-p{
+h3 {
     margin: 0;
+    padding: 0;
 }
-.stars{
+
+
+.stars {
     color: #0065FC;
 }
-.grey{
+
+.grey {
     color: #f2f2f2;
 }
-.plus{
-    margin-bottom: 0;
-    position: relative;
-    left: -404px;
-    top: 75px;
-    padding-left: 30px;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
 
-#aside{
+
+#aside {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
@@ -428,310 +416,231 @@ p{
     top: 417px;
     right: 76px;
     width: 520px;
-    height: 650px;
+    height: 730px;
     margin-top: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
     margin-bottom: 50px;
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
     border-radius: 20px 20px 20px 20px;
 }
-.aside{
-    font-weight: bold;
-    font-size: 1.3rem;
-    position: relative;
-    left: -45px;
-    top: 24px;
-}
-.chart{
-    font-weight: bold;
-    font-size: 1.3rem;
-    position: relative;
-    top: 23px;
-    right: -36px;
-}
-.card_3{
-    border-radius: 25px;
-    margin-top: -33px;
-    width: 460px;
-    height: 144px;
 
+#aside h2 {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1.8em;
+    width: 100%;
 }
-.card_3 figure{
-    margin: 7px;
-    background-color: white;
+
+.chart {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+}
+
+/*Card Class*/
+.card {
+    position: relative;
     display: flex;
-    border-radius: 25px;
-    height: 155px;
-    margin-bottom: 10px;
-}
-.card_3 figcaption {
-    height: 130px;
-    width: 200px;
-    padding-left: 10px;
-    margin-top: 9px;
-    background-color: white;
-    border-radius: 25px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 5px solid #fff;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 10px 2px #e0e0e0;
+
 }
 
-.card_3 p {
-    /*espace entre les étoiles et la description*/
-    margin-bottom: 35px;
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card-no-border {
+    border: none !important;
+}
+
+.card-1 {
+    height: 180px;
+    width: 100%;
+    margin: 15px;
+}
+
+.card-3 {
+    height: 255px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/*Card img Class*/
+.card_img {
+
+    margin-bottom: 30px;
+}
+
+.card_img img {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    width: 100%;
+    height: 150px;
+
+
+}
+
+.card_img .card-body {
+    flex: 1 1 auto;
+    padding: 0.75em 0.75em 0.25em 0.75em;
+    min-height: 65px;
+}
+
+.card_img .card-footer {
+    padding: 0 0.75em 0.25em 0.75em;
+
+}
+
+.plus {
+    margin-bottom: 0;
+    position: relative;
+    padding: 0 20px 20px 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.card_horizontal {
+    flex: 1 1 auto;
+    display: flex;
+
+}
+
+.card_horizontal .card-left-img img {
+    vertical-align: middle;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 175px;
+    height: 170px;
+}
+
+.card_horizontal .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-content {
+    height: 120px;
+    width: 155px;
 }
 
 #activités {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 10px;
     padding-right: 10px;
-    width: 1600px;
+    max-width: 1600px;
 }
 
-.Marseille {
-    margin-bottom: 0;
-    position: absolute;
-    left: 108px;
-    top: 1212px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#activités h2 {
     font-weight: bold;
-    font-size: 1.5rem;
+    margin-left: 3px;
+    font-size: 1.8em;
+    width: 100%;
 }
 
-.card_4 {
-    border-radius: 25px;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 25px;
-    height: 450px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+#activités h3 {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.card_4 figure {
-    margin: -10px;
-    background-color: white;
-    border-radius: 25px;
-    height: 390px;
-    margin-bottom: 10px;
+#activités img {
+    border-top-left-radius: 1.8em;
+    border-top-right-radius: 1.8em;
+    width: 100%;
 }
 
-.card_4 img {
-    border-radius: 25px 25px 0 0;
-    width: 300px;
-    height: 390px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.card_4 figcaption {
-    height: 42px;
-    padding-left: 12px;
-    margin-top: 11px;
-    background-color: white;
-    border-radius: 25px;
-}
-
-.card_4 p, .photo_2 p, .photo_4 p {
+#activités .line {
     display: flex;
-    align-items: flex-start;
-}
-.card_4 strong, .photo_2 strong, .photo_4 strong{
-    font-size: 17px;
-}
-.photo_2 {
-    border-radius: 25px;
-    margin-top: 50px;
-    margin-right: -20px;
-    height: 457px;
-    width: 320px;
-    text-align: center;
+    flex-wrap: wrap;
+    margin-right: -25px;
+    margin-left: -25px;
+    align-items: stretch !important;
 }
 
-.card_Fort {
-    border-radius: 25px;
-    height: 226px;
-    margin-bottom: 72px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+.col-1, .col-2 {
+    position: relative;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
-.card_Fort figure {
-    margin-top: 0;
-    background-color: white;
-    border-radius: 25px;
-    height: 227px;
+.card.full-height img {
+    height: 520px;
     width: 300px;
 }
 
-.card_Fort img {
+
+.card_2-3 {
+    border-radius: 25px;
+    height: 300px;
+}
+
+.card_2-3 img {
     border-radius: 25px 25px 0 0;
-    width: 310px;
-    height: 182px;
-    padding-top: 0;
-    margin-left: -10px;
-    padding-left: 3px;
-    padding-right: 0;
+    height: 240px;
 }
 
-.card_Fort figcaption {
-    height: 30px;
-    width: 185px;
-    margin-top: 4px;
-    padding-left: 5px;
-    background-color: white;
+.card_1-3 {
     border-radius: 25px;
+    height: 230px;
 }
 
-.card_îles {
-    border-radius: 25px;
-    height: 155px;
-    margin-top: 34px;
-    width: 310px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-}
-
-.card_îles figure {
-    margin-top: 0;
-    background-color: white;
-    border-radius: 25px;
-    height: 155px;
-    width: 300px;
-}
-.card_îles img {
+.card_1-3 img {
     border-radius: 25px 25px 0 0;
-    width: 310px;
-    height: 109px;
-    margin-left: -7px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+    height: 170px;
 }
 
-.card_îles figcaption {
-    height: 30px;
-    width: 185px;
-    margin-top: 4px;
-    padding-left: 5px;
-    background-color: white;
-    border-radius: 25px;
+.col-2 .card:first-child {
+    margin-bottom: 50px;
 }
 
-.photo_4 {
-    border-radius: 25px;
-    margin-top: 50px;
-    margin-right: -20px;
-    height: 457px;
-    width: 320px;
-    text-align: center;
-}
+footer {
+    flex: 0 0 auto;
+    width: auto;
+    background-color: #f2f2f2;
 
-.card_Garde {
-    border-radius: 25px;
-    height: 200px;
-    margin-bottom: 44px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-}
-
-.card_Garde figure {
-    margin-top: 0;
-    background-color: white;
-    border-radius: 25px;
-    height: 200px;
-    width: 300px;
-}
-
-.card_Garde img {
-    border-radius: 25px 25px 0 0;
-    width: 310px;
-    height: 150px;
-    padding-top: 0;
-    margin-left: -11px;
-    padding-left: 3px;
-    padding-right: 0;
-}
-
-.card_Garde figcaption {
-    height: 31px;
-    width: 253px;
-    margin-top: 6px;
-    padding-left: 5px;
-    background-color: white;
-    border-radius: 25px;
-}
-
-.card_Longchamp {
-    border-radius: 25px;
-    height: 210px;
-    margin-top: 34px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-}
-
-.card_Longchamp figure {
-    margin-top: 0;
-    background-color: white;
-    border-radius: 25px;
-    height: 155px;
-    width: 293px;
-}
-
-.card_Longchamp img {
-    border-radius: 25px 25px 0 0;
-    width: 300px;
-    margin-left: -8px;
-    height: 150px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.card_Longchamp figcaption {
-    height: 30px;
-    width: 185px;
-    margin-top: 11px;
-    padding-left: 5px;
-    background-color: white;
-    border-radius: 25px;
 }
 
 #footer {
-    width: 1856px;
     height: 200px;
     display: flex;
-    justify-content: space-between;
-    margin-left: -134px;
-    background-color: #f2f2f2;
+    max-width: 1620px;
+    margin: auto;
+    padding-top: 30px;
 }
 
-.début {
+.start {
     display: inline-block;
     vertical-align: top;
     width: 25%;
     margin-right: 2%;
-    margin-left: 141px;
+    margin-left: 20px;
 }
 
-.centre {
+.middle {
     display: inline-block;
     vertical-align: top;
     width: 25%;
     margin-right: 2%;
 }
 
-.fin {
+.end {
     display: inline-block;
     vertical-align: top;
     width: 40%;
@@ -755,9 +664,4 @@ ul {
     margin-inline-end: 0;
     margin-left: -40px;
     font-size: 1.2em;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
 }
