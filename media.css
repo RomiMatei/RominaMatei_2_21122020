@@ -205,11 +205,7 @@
     /*filtres*/
     .filters {
         height: 35px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         align-items: center;
-        margin: 40px;
     }
 
     .filter-button {
@@ -351,14 +347,14 @@
     }
 
     /*Cards activités*/
-    #activités h2 {
+    #activites h2 {
         font-weight: bold;
         margin-left: 3px;
         font-size: 1.5em;
         width: 100%;
     }
 
-    #activités h3 {
+    #activites h3 {
         font-weight: bold;
         margin-left: 10px;
         margin-top: 4px;
@@ -406,6 +402,146 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+    /*header*/
+    header {
+        flex: 0 0 auto;
+        display: block;
+        height: 425px;
+    }
+
+
+    .nav-content {
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+
+    /*logo*/
+    nav .logo img {
+        width: 140px;
+    }
+
+    /*menu*/
+    .menu-right ul {
+        display: flex;
+        list-style: none;
+        margin-left: auto !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 1.3em;
+    }
+
+    /*titre*/
+    #head-title {
+        margin-bottom: 25px;
+    }
+
+    #head-title h1 {
+        margin-bottom: 0;
+        font-size: 2em;
+        margin-top: 1px;
+    }
+
+    #head-title h2 {
+        margin-top: 15px;
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    /*search box*/
+    .search-box form .inner-form .input-field input {
+        height: 100%;
+        background: white;
+        border: 0;
+        border-top: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        width: 100%;
+        padding: 10px 0 15px 20px;
+        font-size: 25px;
+        color: #000;
+    }
+
+    /*filtres*/
+    .filter-button {
+        color: #484848;
+        height: 52px;
+        font-size: 18px;
+        line-height: 45px;
+        vertical-align: middle;
+        text-decoration: none;
+        margin-right: 20px;
+        border: 2px solid #d9d9d9;
+        border-radius: 25px;
+    }
+
+    /*info*/
+    .info-button {
+        color: #484848;
+        height: 57px;
+        font-size: 21px;
+    }
+
+    section {
+        display: block;
+    }
+
+    /*container*/
+    #container {
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    /*cards container*/
+    .card-3 {
+        height: 33%;
+        width: 32%;
+        margin: 4px;
+    }
+
+    .card_img img {
+        border-top-left-radius: 2em;
+        border-top-right-radius: 2em;
+        width: 100%;
+        height: 140px;
+    }
+
+    /*aside*/
+    #aside {
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        top: 417px;
+        right: 76px;
+        width: auto;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 3px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    /*cards aside*/
+    .card_horizontal .card-body {
+        padding: 20px 0 0 15px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     /*logo*/
     nav .logo img {
@@ -433,6 +569,7 @@
         padding-top: 10px;
         font-size: 1.7em;
     }
+
     #head-title h2 {
         margin-top: 15px;
         margin-left: 0;
@@ -440,6 +577,7 @@
         font-weight: normal;
         font-size: 19px;
     }
+
     /*filtres*/
     .filters {
         height: 35px;
@@ -449,22 +587,18 @@
         align-items: center;
         margin: 10px 10px 27px 2px;
     }
+
     /*classe info*/
     .info {
         margin-top: 6px;
     }
+
     .info-button {
         color: #484848;
-        display: inline-block;
-        height: 30px;
-        font-size: 19px;
-        line-height: 30px;
-        vertical-align: middle;
-        text-decoration: none;
-        margin: 0;
-        padding-top: 10px;
-        border-radius: 25px;
+        height: 57px;
+        font-size: 21px;
     }
 }
+
 
 
