@@ -141,8 +141,14 @@
     }
 
     .search-box form .inner-form {
-        width: 100%;
-        max-width: 100%;
+        border: 2px solid #f2f2f2;
+        border-radius: 20px;
+    }
+    .search-box form .inner-form .input-field input {
+        height: 100%;
+        background: white;
+        border: 0;
+        padding: 10px 0 10px 20px;
     }
 
     .search-box form .inner-form .input-field.second-wrap .btn-search {
@@ -151,7 +157,6 @@
 
     .search-box form .inner-form .input-field.second-wrap .btn-search.mobile {
         display: block;
-        border-radius: 25px;
     }
 
     section {
@@ -163,14 +168,23 @@
         flex: 0 0 100%;
         margin-top: 20px;
     }
+    #container h2 {
+        margin-left: 20px;
+        font-size: 1.6rem;
+    }
 
     #container .cards {
         background-color: transparent;
     }
 
     #aside {
-        /*width: 100%;*/
+
         flex: 0 0 100%;
+    }
+    #aside h2 {
+        margin-left: 20px;
+        font-size: 1.6em;
+        width: 100%;
     }
 
     .filters > span {
@@ -220,7 +234,6 @@
 
     #activites .col-1,
     #activites .col-2 {
-        flex: 1 0 100%;
         max-width: 100%;
     }
 
@@ -234,7 +247,19 @@
     }
 
     #activites {
-        padding-right: 0;
+        padding-right: 3px;
+        margin-bottom: 0;
+        padding-top: 0;
+        max-width: initial;
+    }
+    #activites .line {
+        margin-right: 0;
+        margin-left: 0;
+        display: block;
+    }
+    #activites h2 {
+        margin-left: 30px;
+        font-size: 1.6em;
     }
 
     #activites .col-1 .card,
@@ -262,6 +287,67 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    #head-title h1 {
+        font-size: 1.1rem;
+    }
+
+    #head-title h2 {
+        font-size: 1rem;
+    }
+
+    .search-box form .inner-form {
+        border: 2px solid #f2f2f2;
+        border-radius: 20px;
+    }
+
+    .search-box form .inner-form .input-field input {
+        border: 0;
+    }
+
+    .search-box form .inner-form .input-field {
+        height: 47px;
+    }
+
+    .search-box form .inner-form .input-field.second-wrap .btn-search {
+        height: 100%;
+        font-size: 20px;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        background: #0065fc;
+        padding: 0 20px 0 20px;
+    }
+
+    .filter-button {
+        font-size: 1rem;
+    }
+
+    .info-button {
+        font-size: 15px;
+    }
+
+    #aside h2 {
+        font-size: 1.3rem;
+    }
+    .card_horizontal, .card_img {
+        border-radius: 2rem;
+    }
+    .card_horizontal .card-left-img img {
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        height: 150px;
+    }
+    #container h2 {
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
+    .card_img img {
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+}
 
 
 
