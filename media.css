@@ -1,3 +1,24 @@
+@media screen and (max-width: 1200px) {
+    #container {
+        flex: 0 0 100%
+    }
+
+    #aside {
+        flex: 0 0 100%
+    }
+
+    .card-1 {
+        flex: 0 0 50%;
+    }
+
+    .col-1, .col-2 {
+        margin-bottom: 30px;
+        flex: 0 0 50%;
+        width: auto;
+        max-width: 50%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #container {
         flex: 0 0 100%
@@ -111,10 +132,12 @@
     #head-title h1 {
         margin-top: 15px;
         margin-bottom: 10px;
+        font-size: 1.5rem;
     }
 
     #head-title h2 {
         margin-top: 0;
+        font-size: 1.1rem;
     }
 
     .search-box form .inner-form {
