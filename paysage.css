@@ -2,10 +2,12 @@
     .card-1 {
         flex: 0 0 100%;
     }
+
     .card-3 {
         flex: 1 0 50%;
     }
 }
+
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
     .card {
         flex: 0 0 50%;
@@ -16,7 +18,8 @@
         flex: 0 0 50%;
     }
 
-    .col-1, .col-2 {
+    .col-1,
+    .col-2 {
         margin-bottom: 30px;
         flex: 0 0 50% !important;
         width: auto;
