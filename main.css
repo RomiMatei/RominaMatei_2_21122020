@@ -65,9 +65,9 @@ nav {
     color: black;
 }
 
-.nav-content .inscrire .hebergements a {
-    color: #0065fc;
-}
+.nav-content .inscrire a, .nav-content .hebergements a {
+     color: #0065fc;
+ }
 
 .logo-nav {
     flex: 1 0 auto;
